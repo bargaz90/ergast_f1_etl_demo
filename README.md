@@ -2,7 +2,7 @@
 
 This is a demo project to learn how to use Airflow and Great Expectations.
 
-It pulls data from Ergast F1 API https://ergast.com/mrd/ and saves them as json files, does some basic transforms using pandas (combining multiple files into tables, setting data types and saving the output as csv files), validates csv files using Great Expectations and loads the data to PostgreSQL database hosted on Azure.
+It pulls data from Ergast F1 API https://ergast.com/mrd/ and saves it as json files, does some basic transforms using pandas (combining multiple files into tables, setting data types and saving the output as csv files), validates csv files using Great Expectations and loads the data to PostgreSQL database hosted on Azure.
 
 All the transform are done locally. Airflow runs on WSL (ubuntu 20.04) on win10.
 
